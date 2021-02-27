@@ -1,0 +1,7 @@
+# Server configurations
+server:
+  host: "DB_MYSQL_DESAENV02_TESTCREDIT_TESTCREDIT_ENDPOINT"
+  regenerateSchema: false
+
+WriteDBConfig:
+  Url: testcredit_WPROD:${DB_MYSQL_DESAENV02_TESTCREDIT_TESTCREDIT_WPROD}@tcp(${DB_MYSQL_DESAENV02_TESTCREDIT_TESTCREDIT_ENDPOINT})/testcredit

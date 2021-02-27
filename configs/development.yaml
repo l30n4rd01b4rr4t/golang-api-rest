@@ -1,0 +1,7 @@
+# Server configurations
+server:
+  host: "localhost:3306"
+  regenerateSchema: true
+
+WriteDBConfig:
+  Url: root:creditsdb@tcp(localhost:3306)/creditsdb
